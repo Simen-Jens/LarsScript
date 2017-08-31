@@ -1,4 +1,7 @@
-## Hvordan fungerer LarsScript?
+## Hvordan bruke LarsScript?
+`java -jar LarsScript.jar <filnavn>`
+
+## Hvordan skrive LarsScript?
 * Ingen desimaltall, Lars er ikke så punktelig.</br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lovelig eksempel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`kontobalanse er 1` </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ulovelig eksempel:&nbsp;&nbsp;&nbsp;`kontobalanse er 1.1`*</br>
@@ -66,7 +69,7 @@ dersom antallVenner er 0 og dama er "alt jeg har"?{
 }
 ```
 </br>
-* for å oppnå prosedyrebasert objektorientering i LarsScript trenger vi en måte å få skrivetilgang til ikkelokale variabler (`nonlocal` i python `.` i Java). Dette løses elegant ved at Lars hadde tilgang til variabelen når den var i `pre-alpha`, vi kan dermed få skrivetilgang til variabler utenfor vårt eget skop med å bruke `pre-alpha` nøkkelordet.</br>
+* for å oppnå prosedyrebasert objektorientering i LarsScript trenger vi en måte å få skrivetilgang til ikkelokale variabler (`nonlocal` i pyhton `.` i Java). Dette løses elegant ved at Lars hadde tilgang til variabelen når den var i `pre-alpha`, vi kan dermed få skrivetilgang til variabler utenfor vårt eget skop med å bruke `pre-alpha` nøkkelordet.</br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eksempel:*
 ```
 avtale vaskeBilenTilDama(){
@@ -76,3 +79,10 @@ avtale vaskeBilenTilDama(){
     }
 }
 ```
+</br>
+## Innebygd bibliotek
+* **spørsmål(String)** - ber om input fra bruker og gir dette tilbake som en unnskyldning
+* **si(String)** - printer informasjon til skjermen
+* **antall(val)** - returnerer lengden av en tekststreng eller antall elementer i en liste
+* **teksten(val)** - gir tilbake `.toString()` av verdien
+* **KlikkIVinkel(String)** - kaster en feilmelding (Lars lager ikke egne feilmeldinger)
