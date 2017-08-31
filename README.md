@@ -13,11 +13,11 @@
 
 * Feilmeldinger er oppskryt, Lars vet ikke hva han gjorde feil derfor finnes ikke dette. (Dersom man ønsker å la brukeren skape feil kan man bruke den innebygde avtalen `KlikkIVinkel(melding)`)</br>
 
-* Istedenfor `return` bruker vi `gi unnskyldning`, når Lars har sagt han skal gjøre en avtale kan han komme opp med en unnskyldning for å bryte ut av avtalen.</br>
+* Istedenfor `return` bruker vi `gi unnskyldning:`, når Lars har sagt han skal gjøre en avtale kan han komme opp med en unnskyldning for å bryte ut av avtalen.</br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lovelig eksempel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gi unnskyldning: tja` </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ulovelig eksempel:&nbsp;&nbsp;&nbsp;`return True`*</br>
 
-* En funksjonsdefinisjon starter med nøkkelordet `avtale`, alle funksjoner fungerer som avtaler for Lars de er derfor også primitive verdier og kan byttes ut med andre primitive verdier slik som tall og tekst når som helst. </br>
+* En funksjonsdefinisjon starter med nøkkelordet `avtale`, alle funksjoner fungerer som avtaler for Lars. De er derfor også primitive verdier og kan byttes ut med andre primitive verdier slik som tall og tekst når som helst. </br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lovelig eksempel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*
 ```
 avtale spilleLeague(medVenner){
@@ -31,10 +31,13 @@ avtale spilleLeague(medVenner){
 </br>
 
 ## Gramatikk
-Gyldige atomære verdier:
+Gyldige primitive verdier:
 * nøkkeordet `ingenting`, dette er den atomære verdien for ingenting altså `null`
 * heltallsverdier, altså  ℤ {..., -3, -2, -1, 0, 1, 2, 3, ...}
 * tekststrenger, **MERK:** tekstnotasjon benytter dobbelt anførselstegn (`"Nettet er helt Afrika atm"`)
+* lister, definieres ved bruk av `[]` - *eks: `fagBestått er []`*
+* hashmaps, definieres ved bruk av `{}` - *eks: `myAccomplishments er {"å ha dame": tja, "å ha venner": nei}`*
+* avtaler (funksjoner)
 
 
 Aritmetiske operasjoner:
@@ -44,6 +47,7 @@ Aritmetiske operasjoner:
 * `/` gjør divisjon
 * `>` / `større` evaluerer to uttrykk mot hverandre med `greater than` utsagnet
 * `<` / `mindre` evaluerer to uttrykk mot hverandre med `lesser than` utsagnet
+* `%` gjør modulo
 
 Flyt i språket:
 * `()` definerer sammensatte setninger
@@ -80,7 +84,7 @@ avtale vaskeBilenTilDama(){
 }
 ```
 </br>
-## Innebygd bibliotek
+## Innebygd bibliotek i LarsScript
 * **spørsmål(String)** - ber om input fra bruker og gir dette tilbake som en unnskyldning
 * **si(String)** - printer informasjon til skjermen
 * **antall(val)** - returnerer lengden av en tekststreng eller antall elementer i en liste
