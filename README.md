@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ulovelig eksempel:&nbsp;&nbsp;&nbsp;`kontobalanse er 1.1`*</br>
 
 * Import setninger er ikke lovelig, Lars bruker kun sin egen kode. </br>
-* Lars bruker ikke `True` eller `False` han bruker `tja` og `nei` (`tja` vil tilfeldig bli satt til `True` eller `False`)</br>
+* Lars bruker ikke `True` eller `False` han bruker `tja` og `nei` (`tja` vil tilfeldig bli satt til `True` eller `False` (**OBS!** dette gjelder forøverig ALLE evalueringen som evaluerer til `True`, de vil ha en 50% sjansje for å bli `False`))</br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lovelig eksempel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`EØS er tja` </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ulovelig eksempel:&nbsp;&nbsp;&nbsp;`EØS er True`*</br>
 
