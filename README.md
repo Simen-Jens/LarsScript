@@ -74,7 +74,7 @@ dersom antallVenner er 0 og dama er "alt jeg har"?{
 ```
 </br>
 
-* for å oppnå prosedyrebasert objektorientering i LarsScript trenger vi en måte å få skrivetilgang til ikkelokale variabler (`nonlocal` i pyhton `.` i Java). Dette løses elegant ved at Lars hadde tilgang til variabelen når den var i `pre-alpha`, vi kan dermed få skrivetilgang til variabler utenfor vårt eget skop med å bruke `pre-alpha` nøkkelordet.</br>
+* for å oppnå prosedyrebasert objektorientering i LarsScript trenger vi en måte å få skrivetilgang til ikkelokale variabler (`nonlocal` i python `.` i Java). Dette løses elegant ved at Lars hadde tilgang til variabelen når den var i `pre-alpha`, vi kan dermed få skrivetilgang til variabler utenfor vårt eget skop med å bruke `pre-alpha` nøkkelordet.</br>
 *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eksempel:*
 ```
 avtale vaskeBilenTilDama(){
