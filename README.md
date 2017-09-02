@@ -1,5 +1,23 @@
 ## Hvordan bruke LarsScript?
-`java -jar LarsScript.jar <filnavn>`
+https://discordapp.com/oauth2/authorize?client_id=353241122593832962&scope=bot&permissions=0
+</br>
+</br>
+Botten reagrer på mentions (@LarsScript) etterfulgt av en kodeblokk:</br></br>
+
+@LarsScript#3640
+```
+si("hei")
+```
+
+</br>
+</br>
+
+Man kan også tilordne nøkkelord til botten:</br></br>
+@LarsScript#3640 assign to si hei
+```
+si("hei")
+```
+Med dette vil botten evaluere nøkkelordet hvergang det blir nevnt i guilden
 
 ## Hvordan skrive LarsScript?
 * Ingen desimaltall, Lars er ikke så punktelig.</br>
