@@ -52,6 +52,7 @@ avtale spilleLeague(medVenner){
 ## Gramatikk
 Gyldige primitive verdier:
 * nøkkeordet `ingenting`, dette er den atomære verdien for ingenting altså `null`
+* boolskeverdier, `tja` og `nei`
 * heltallsverdier, altså  ℤ {..., -3, -2, -1, 0, 1, 2, 3, ...}
 * tekststrenger, **MERK:** tekstnotasjon benytter dobbelt anførselstegn (`"Nettet er helt Afrika atm"`)
 * lister, definieres ved bruk av `[]` - *eks: `fagBestått er []`*
