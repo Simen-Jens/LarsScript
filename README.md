@@ -106,7 +106,7 @@ avtale vaskeBilenTilDama(){
 </br>
 
 ## Innebygd bibliotek i LarsScript
-* **spørsmål(String)** - ber om input fra bruker og gir dette tilbake som en unnskyldning
+* **tenke(String)** - ber om input fra bruker og gir dette tilbake som en unnskyldning
 * **si(String)** - printer informasjon til skjermen
 * **antall(val)** - returnerer lengden av en tekststreng eller antall elementer i en liste
 * **teksten(val)** - gir tilbake `.toString()` av verdien
