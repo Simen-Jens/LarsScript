@@ -17,7 +17,8 @@ Man kan også tilordne nøkkelord til botten:</br></br>
 ```
 si("hei")
 ```
-Med dette vil botten evaluere nøkkelordet hvergang det blir nevnt i guilden
+Med dette vil botten evaluere nøkkelordet hvergang det blir nevnt i guilden:</br>
+<img align="center" src="https://puu.sh/xpHCk/828a407070.png"/>
 
 ## Hvordan skrive LarsScript?
 * Ingen desimaltall, Lars er ikke så punktelig.</br>
